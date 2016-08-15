@@ -11,7 +11,7 @@ var postsData = [
  	},
  	{
  		title: 'Student #3',
- 		url: 'http://google.com'
+ 		url: 'http://google.com',
  		essayNumber: 3
  	}
 ];
