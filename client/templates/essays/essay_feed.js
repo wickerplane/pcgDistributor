@@ -15,6 +15,6 @@ var essayData = [
  		essayNumber: 3
  	}
 ];
-Template.postsList.helpers({
+Template.essayFeed.helpers({
  essays: essayData
 });
