@@ -1,4 +1,5 @@
-.grid-block, .main, .post, .comments li, .comment-form {
+/*
+.grid-block, .main, .essay, .comments li, .comment-form {
  background: #fff;
  border-radius: 3px;
  padding: 10px;
@@ -20,54 +21,56 @@ body {
 .navbar {
  margin-bottom: 10px; }
  /* line 32, ../sass/style.scss */
+ /*
  .navbar .navbar-inner {
  border-radius: 0px 0px 3px 3px; }
 #spinner {
  height: 300px; }
-.post {
+.essay {
  /* For modern browsers */
  /* For IE 6/7 (trigger hasLayout) */
+ /*
  *zoom: 1;
  position: relative;
  opacity: 1; }
- .post:before, .post:after {
+ .essay:before, .essay:after {
  content: "";
  display: table; }
- .post:after {
+ .essay:after {
  clear: both; }
- .post.invisible {
+ .essay.invisible {
  opacity: 0; }
- .post.instant {
+ .essay.instant {
  -webkit-transition: none;
  -moz-transition: none;
  -o-transition: none;
  transition: none; }
- .post.animate{
+ .essay.animate{
  -webkit-transition: all 300ms 0ms;
  -moz-transition: all 300ms 0ms ease-in;
  -o-transition: all 300ms 0ms ease-in;
  transition: all 300ms 0ms ease-in; }
- .post .upvote {
+ .essay .upvote {
  display: block;
  margin: 7px 12px 0 0;
  float: left; }
- .post .post-content {
+ .essay .essay-content {
  float: left; }
- .post .post-content h3 {
+ .essay .essay-content h3 {
  margin: 0;
  line-height: 1.4;
  font-size: 18px; }
- .post .post-content h3 a {
+ .essay .essay-content h3 a {
  display: inline-block;
  margin-right: 5px; }
- .post .post-content h3 span {
+ .essay .essay-content h3 span {
  font-weight: normal;
  font-size: 14px;
  display: inline-block;
  color: #aaaaaa; }
- .post .post-content p {
+ .essay .essay-content p {
  margin: 0; }
- .post .discuss {
+ .essay .discuss {
  display: block;
  float: right;
  margin-top: 7px; }
@@ -102,7 +105,7 @@ body {
  .load-more:hover {
  text-decoration: none;
  background: rgba(0, 0, 0, 0.1); }
-.posts .spinner-container{
+.essays .spinner-container{
  position: relative;
  height: 100px;
 }
