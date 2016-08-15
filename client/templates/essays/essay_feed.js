@@ -1,4 +1,4 @@
-var postsData = [
+var essayData = [
  	{
  		title: 'Student #1',
  		url: 'http://upenn.edu',
@@ -16,5 +16,5 @@ var postsData = [
  	}
 ];
 Template.postsList.helpers({
- posts: postsData
+ essays: essayData
 });
